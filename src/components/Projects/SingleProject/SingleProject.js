@@ -67,7 +67,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                     .toLowerCase()}-demo`}
                                 className={classes.icon}
                                 aria-label='Demo'
-                            />Demo
+                            />
                         </a>
                         <a
                             href={code}
@@ -86,7 +86,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                     .toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
-                            />Code
+                            />
                         </a>
                     </div>
                 </div>
