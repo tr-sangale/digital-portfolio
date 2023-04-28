@@ -213,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='https://drive.google.com/file/d/1TfLDITHj1js9DPEIJ90pKOlmeNjs_Txa/view?usp=sharing'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -231,7 +231,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#services'
+                                to='/#experience'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -249,7 +249,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#blog'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
