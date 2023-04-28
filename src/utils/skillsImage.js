@@ -77,6 +77,7 @@ import excel from '../assets/svg/skills/excel.svg'
 import github from '../assets/svg/skills/github.svg'
 import powerBI from '../assets/svg/skills/powerBI.svg'
 import tableau from '../assets/svg/skills/tableau.svg'
+import powerbi from '../assets/svg/skills/power-bi.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -238,8 +239,8 @@ export const skillsImage = (skill) => {
             return excel;
         case 'github':
             return github;
-        case 'powerBI':
-            return powerBI;
+        case 'powerbi':
+            return powerbi;
         case 'tableau':
             return tableau;
         default:
