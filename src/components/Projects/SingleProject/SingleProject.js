@@ -60,7 +60,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-demo`}
-                        >
+                        >Demo
                             <FaPlay
                                 id={`${name
                                     .replace(' ', '-')
@@ -79,7 +79,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-code`}
-                        >
+                        >Code
                             <FaCode
                                 id={`${name
                                     .replace(' ', '-')
