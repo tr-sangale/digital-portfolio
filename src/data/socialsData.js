@@ -12,5 +12,6 @@ export const socialsData = {
     gitlab: 'https://gitlab.com/',
     youtube: 'https://youtube.com/',
     hackerrank: 'https://www.hackerrank.com/krshelar/',
-    portfolio: 'https://master--kaustubhshelar.netlify.app/'
+    portfolio: 'https://master--kaustubhshelar.netlify.app/',
+    musicpage: 'https://instagram.com/_arrpeggio_?igshid=YmMyMTA2M2Y=/'
 }
