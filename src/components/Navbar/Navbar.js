@@ -213,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='https://drive.google.com/file/d/1TfLDITHj1js9DPEIJ90pKOlmeNjs_Txa/view?usp=sharing'
+                                <a href="https://drive.google.com/file/d/1TfLDITHj1js9DPEIJ90pKOlmeNjs_Txa/view?usp=sharing"></a>
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -241,7 +241,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Services
+                                        Experience
                                     </span>
                                 </div>
                             </NavLink>
@@ -259,7 +259,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>
