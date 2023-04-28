@@ -75,7 +75,6 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import hadoop from '../assets/svg/skills/hadoop.svg'
 import excel from '../assets/svg/skills/excel.svg'
 import github from '../assets/svg/skills/github.svg'
-import powerBI from '../assets/svg/skills/powerBI.svg'
 import tableau from '../assets/svg/skills/tableau.svg'
 import powerbi from '../assets/svg/skills/power-bi.svg'
 
