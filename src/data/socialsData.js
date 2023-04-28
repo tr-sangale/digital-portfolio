@@ -10,5 +10,6 @@ export const socialsData = {
     medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
-    youtube: 'https://youtube.com/'
+    youtube: 'https://youtube.com/',
+    hackerrank: 'https://www.hackerrank.com/krshelar/'
 }
