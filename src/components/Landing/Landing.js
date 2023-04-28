@@ -102,16 +102,16 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.github}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaGithub
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='GitHub'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
