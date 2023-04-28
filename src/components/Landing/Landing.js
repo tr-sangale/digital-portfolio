@@ -15,6 +15,7 @@ import {
     FaHackerrank,
     FaUserCircle,
     FaFacebook,
+    FaMusic,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -138,6 +139,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='HackerRank'
+                                />
+                            </a>
+                        )}
+                        {socialsData.musicpage && (
+                            <a
+                                href={socialsData.musicpage}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaMusic
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='MusicPage'
                                 />
                             </a>
                         )}
