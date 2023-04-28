@@ -9,7 +9,7 @@ import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
 
-function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
+function ExperienceCard({id, company, jobtitle, startYear, endYear, description}) {
 
     const { theme } = useContext(ThemeContext);
 
