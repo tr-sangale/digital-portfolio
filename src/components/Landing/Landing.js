@@ -12,6 +12,7 @@ import {
     FaLinkedin,
     FaGithub,
     FaInstagram,
+    FaHackerRank,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -112,25 +113,17 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {(
+                        {socialsData.hackerrank && (
                             <a
-                               
+                                href={socialsData.hackerrank}
+                                target='_blank'
+                                rel='noreferrer'
                             >
-                               
-                            </a>
-                        )}
-                        {(
-                            <a
-                               
-                            >
-                               
-                            </a>
-                        )}
-                        {(
-                            <a
-                               
-                            >
-                               
+                                <FaHackerRank
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='HackerRank'
+                                />
                             </a>
                         )}
                     </div>
