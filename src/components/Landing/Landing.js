@@ -13,6 +13,8 @@ import {
     FaGithub,
     FaInstagram,
     FaHackerrank,
+    FaUserCircle,
+    FaFacebook,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -113,6 +115,19 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {socialsData.facebook && (
+                            <a
+                                href={socialsData.facebook}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaFacebook
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Facebook'
+                                />
+                            </a>
+                        )}
                         {socialsData.hackerrank && (
                             <a
                                 href={socialsData.hackerrank}
@@ -123,6 +138,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='HackerRank'
+                                />
+                            </a>
+                        )}
+                        {socialsData.portfolio && (
+                            <a
+                                href={socialsData.portfolio}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaUserCircle
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Portfolio'
                                 />
                             </a>
                         )}
