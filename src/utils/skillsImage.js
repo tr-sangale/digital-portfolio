@@ -72,6 +72,11 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
+import hadoop from '../assets/svg/skills/hadoop.svg'
+import excel from '../assets/svg/skills/excel.svg'
+import github from '../assets/svg/skills/github.svg'
+import powerBI from '../assets/svg/skills/powerBI.svg'
+import tableau from '../assets/svg/skills/tableau.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -227,6 +232,16 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'hadoop':
+            return hadoop;
+        case 'excel':
+            return excel;
+        case 'github':
+            return github;
+        case 'powerBI':
+            return powerBI;
+        case 'tableau':
+            return tableau;
         default:
             break;
     }
