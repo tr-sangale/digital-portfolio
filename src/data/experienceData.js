@@ -12,7 +12,7 @@ export const experienceData = [
         company: 'UInSports',
         jobtitle: 'Web Developer',
         startYear: 'Sep\'2021',
-        endYear: 'jul\'2022',
-        description: '● Created a feature as a react component for the client website, which will crop/edit an image before posting or setting up the profile picture\n● Market Research and exploring new features for the Web Application based on current trends in technology and sports\n● Analyzed best practices and project structure in Flutter for mobile app development according to company requirements\n● Technologies used are HTML, CSS, ReactJs, Material UI, Python Flask, Flutter\n● Followed Agile Scrum methodology throughout the internship'
+        endYear: 'Jul\'2022',
+        description: '● Created a feature as a react component for the client website, which will crop/edit an image before posting or setting up the profile picture ● Analyzed best practices and project structure in Flutter for mobile app development according to company requirements ● Technologies used are HTML, CSS, ReactJs, Material UI, Python Flask, Flutter ● Followed Agile Scrum methodology throughout the internship'
     },
 ]
