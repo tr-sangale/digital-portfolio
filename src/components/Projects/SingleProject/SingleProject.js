@@ -60,14 +60,14 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-demo`}
-                        >Demo
+                        >
                             <FaPlay
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-demo`}
                                 className={classes.icon}
                                 aria-label='Demo'
-                            />
+                            />Demo
                         </a>
                         <a
                             href={code}
@@ -79,14 +79,14 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-code`}
-                        >Code
+                        >
                             <FaCode
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
-                            />
+                            />Code
                         </a>
                     </div>
                 </div>
