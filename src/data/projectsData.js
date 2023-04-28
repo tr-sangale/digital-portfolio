@@ -6,6 +6,9 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import car from '../assets/svg/projects/car.svg'
+import cafe from '../assets/svg/projects/cafe.svg'
+import thirteen from '../assets/svg/projects/thirteen.svg'
 
 
 export const projectsData = [
@@ -16,7 +19,7 @@ export const projectsData = [
         tags: ['Python', 'OpenCV', 'Streamlit', 'GitHub'],
         code: 'https://github.com/KaustubhShelar/Object-Detection',
         demo: 'https://kaustubhshelar-object-detection-main2-b5zsx7.streamlit.app/',
-        image: one
+        image: car
     },
     {
         id: 2,
@@ -25,7 +28,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Javascript', 'Firebase'],
         code: 'https://github.com/KaustubhShelar/Split-It',
         demo: 'https://split-it.girhe.com/',
-        image: two
+        image: thirteen
     },
     {
         id: 3,
@@ -34,7 +37,7 @@ export const projectsData = [
         tags: ['DotNet', 'C#', 'SQL', 'DBMS'],
         code: 'https://github.com/KaustubhShelar/Cafe-Management-System',
         demo: 'https://github.com/KaustubhShelar/Cafe-Management-System',
-        image: three
+        image: cafe
     },
     {
         id: 4,
