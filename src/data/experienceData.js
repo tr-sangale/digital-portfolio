@@ -13,6 +13,6 @@ export const experienceData = [
         jobtitle: 'Web Developer',
         startYear: 'Sep\'2021',
         endYear: 'Jul\'2022',
-        description: '● Created a feature as a react component for the client website, which will crop/edit an image before posting or setting up the profile picture ● Analyzed best practices and project structure in Flutter for mobile app development according to company requirements ● Technologies used are HTML, CSS, ReactJs, Material UI, Python Flask, Flutter ● Followed Agile Scrum methodology throughout the internship'
+        description: '● Created a feature as a react component for the client website, which will crop/edit an image before posting or setting up the profile picture ● Analyzed best practices and project structure in Flutter for mobile app development ● Technologies used are HTML, CSS, ReactJs, Material UI, Python Flask, Flutter ● Followed Agile Scrum methodology throughout the internship'
     },
 ]
