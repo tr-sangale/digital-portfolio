@@ -34,7 +34,7 @@ function Navbar() {
             fontSize: '2.5rem',
             color: theme.tertiary,
             cursor: 'pointer',
-            position: 'relative',
+            position: 'absolute',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
             '&:hover': {
