@@ -213,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                <a href="https://drive.google.com/file/d/1TfLDITHj1js9DPEIJ90pKOlmeNjs_Txa/view?usp=sharing"></a>
+                                to='/'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
