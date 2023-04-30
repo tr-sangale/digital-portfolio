@@ -216,7 +216,7 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
+                                    <FaLinkedin aria-label='LinkedIn' />
                                 </a>
                             )}
                             {socialsData.instagram && (
