@@ -35,9 +35,9 @@ function Contacts() {
 //         if (reason === 'clickaway') {
 //             return;
 //         }
-
-        setOpen(false);
-    };
+//
+//         setOpen(false);
+//     };
 
     const useStyles = makeStyles((t) => ({
         input: {
