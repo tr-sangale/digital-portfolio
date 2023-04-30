@@ -35,7 +35,7 @@ function Navbar() {
             color: theme.tertiary,
             cursor: 'pointer',
             position: 'fixed',
-            left: '500px',
+            right: '50px',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
             '&:hover': {
