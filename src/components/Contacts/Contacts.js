@@ -240,37 +240,37 @@ function Contacts() {
 //                                 </button>
 //                             </div>
 //                         </form>
-                        <Snackbar
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'center',
-                            }}
-                            open={open}
-                            autoHideDuration={4000}
-                            onClose={handleClose}
-                        >
-                            <SnackbarContent
-                                action={
-                                    <React.Fragment>
-                                        <IconButton
-                                            size='small'
-                                            aria-label='close'
-                                            color='inherit'
-                                            onClick={handleClose}
-                                        >
-                                            <CloseIcon fontSize='small' />
-                                        </IconButton>
-                                    </React.Fragment>
-                                }
-                                style={{
-                                    backgroundColor: theme.primary,
-                                    color: theme.secondary,
-                                    fontFamily: 'var(--primaryFont)',
-                                }}
-                                message={errMsg}
-                            />
-                        </Snackbar>
-                    </div>
+//                         <Snackbar
+//                             anchorOrigin={{
+//                                 vertical: 'top',
+//                                 horizontal: 'center',
+//                             }}
+//                             open={open}
+//                             autoHideDuration={4000}
+//                             onClose={handleClose}
+//                         >
+//                             <SnackbarContent
+//                                 action={
+//                                     <React.Fragment>
+//                                         <IconButton
+//                                             size='small'
+//                                             aria-label='close'
+//                                             color='inherit'
+//                                             onClick={handleClose}
+//                                         >
+//                                             <CloseIcon fontSize='small' />
+//                                         </IconButton>
+//                                     </React.Fragment>
+//                                 }
+//                                 style={{
+//                                     backgroundColor: theme.primary,
+//                                     color: theme.secondary,
+//                                     fontFamily: 'var(--primaryFont)',
+//                                 }}
+//                                 message={errMsg}
+//                             />
+//                         </Snackbar>
+//                     </div>
 
                     <div className='contacts-details'>
                         <a
