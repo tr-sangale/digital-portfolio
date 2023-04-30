@@ -6,9 +6,13 @@ import React, { useContext } from 'react';
 // import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaLinkedinIn,
+    FaLinkedin,
     FaGithub,
     FaInstagram,
+    FaHackerrank,
+    FaUserCircle,
+    FaFacebook,
+    FaMusic,
 } from 'react-icons/fa';
 // import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -223,6 +227,46 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaInstagram aria-label='Instagram' />
+                                </a>
+                            )}
+                             {socialsData.hackerrank && (
+                                <a
+                                    href={socialsData.hackerrank}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaHackerrank aria-label='HackerRank' />
+                                </a>
+                            )}
+                             {socialsData.facebook && (
+                                <a
+                                    href={socialsData.facebook}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaFacebook aria-label='Facebook' />
+                                </a>
+                            )}
+                             {socialsData.musicpage && (
+                                <a
+                                    href={socialsData.musicpage}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaMusic aria-label='MusicPage' />
+                                </a>
+                            )}
+                             {socialsData.portfolio && (
+                                <a
+                                    href={socialsData.portfolio}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaUserCircle aria-label='Portfolio' />
                                 </a>
                             )}
                         </div>
