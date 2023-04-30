@@ -10,9 +10,9 @@
 
 .contacts--img {
     position: absolute;
-    right: 10px;
+    right: 40px;
     bottom: 10px;
-    width: 300px;
+    width: 350px;
     pointer-events: none;
 }
 
