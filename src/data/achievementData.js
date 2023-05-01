@@ -25,7 +25,14 @@ export const achievementData = {
             field : '',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         }
-
+        {
+            id : 4,
+            title : 'Microsoft Certified: Azure Data Fundamentals, Azure AI Fundamentals',
+            details : 'Microsoft',
+            date : '',
+            field : '',
+            image : 'https://media.istockphoto.com/id/1354846583/photo/microsoft-france-headquarters-entrance-in-issy-les-moulineaux-near-paris.jpg?s=612x612&w=0&k=20&c=qp3gYZx05398hv3BLzBIMRhm8MoxLzPxs6V7Xr2oIeE='
+        }
     ]
 }
 
