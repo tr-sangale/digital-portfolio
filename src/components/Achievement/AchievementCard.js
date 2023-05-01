@@ -4,8 +4,6 @@ import Fade from 'react-reveal/Fade';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-import { AiOutlineFolder } from "react-icons/ai";
-
 import './Achievement.css'
 
 function AchievementCard({id, title, details, date, field, image}) {
@@ -33,7 +31,6 @@ function AchievementCard({id, title, details, date, field, image}) {
                     <div className="achievecard-details2" style={{color: theme.primary}}>
                         <h5>{date}</h5>
                         <div className="achievecard-field">
-                            <AiOutlineFolder />
                             <h5>{field}</h5>
                         </div>   
                     </div>
