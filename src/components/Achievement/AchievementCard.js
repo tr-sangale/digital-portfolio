@@ -2,8 +2,6 @@ import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Fade from 'react-reveal/Fade';
 
-import { AiOutlineFolder } from "react-icons/ai";
-
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Achievement.css'
@@ -36,7 +34,7 @@ function AchievementCard({id, title, details, field, image}) {
                             href={field}
                             target='_blank'
                             rel='noreferrer'
-                        ><AiOutlineFolder />
+                        >View Certificate
                         </a>
                        </div>  
                     </div>
