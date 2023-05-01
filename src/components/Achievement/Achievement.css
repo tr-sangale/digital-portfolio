@@ -110,8 +110,8 @@
 
 .achievecard-imgcontainer > img {
     width: 150px;
-    height: 130px;
-    border-radius: 10px;
+    height: 90px;
+    border-radius: 5px;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
