@@ -29,12 +29,14 @@ function AchievementCard({id, title, details, field, image}) {
                         <p style={{color: theme.tertiary80}}>{details}</p>
                     </div>
                      <div className="achievecard-details2" style={{color: theme.primary}}>
+                        <h5>
                         <a
                             href={field}
                             target='_blank'
                             rel='noreferrer'
                         >View Certificate
                         </a>
+                        <h5>
                     </div>
                 </div> 
                 <div className="achievecard-imgcontainer">
