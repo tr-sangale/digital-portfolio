@@ -23,6 +23,7 @@ function Achievement() {
                         id={achieve.id}
                         title={achieve.title}
                         details={achieve.details}
+                        field={achieve.field}
                         image={achieve.image}/>
                     ))}
                 </div>
