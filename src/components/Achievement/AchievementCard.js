@@ -34,7 +34,7 @@ function AchievementCard({id, title, details, field, image}) {
                             target='_blank'
                             rel='noreferrer'
                             class="achievecard-details2"
-                            style={color: theme.primary}
+                            style={{color: theme.primary}}
                         >View Certificate
                         </a>
                     </div>
