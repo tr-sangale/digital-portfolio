@@ -44,7 +44,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    height: 170px;
+    height: 140px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -105,7 +105,7 @@
 }
 
 .achievecard-imgcontainer {
-    width: 23%;
+    width: 18%;
 }
 
 .achievecard-imgcontainer > img {
