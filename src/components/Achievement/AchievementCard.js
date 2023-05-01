@@ -2,11 +2,13 @@ import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Fade from 'react-reveal/Fade';
 
+import { AiOutlineFolder } from "react-icons/ai";
+
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Achievement.css'
 
-function AchievementCard({id, title, details, date, field, image}) {
+function AchievementCard({id, title, details, field, image}) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -29,12 +31,14 @@ function AchievementCard({id, title, details, date, field, image}) {
                         <p style={{color: theme.tertiary80}}>{details}</p>
                     </div>
                      <div className="achievecard-details2" style={{color: theme.primary}}>
-                     <a
+                      <div className="achievecard-field">
+                        <a
                             href={field}
                             target='_blank'
                             rel='noreferrer'
-                        >Certificate
-                       </a>
+                        ><AiOutlineFolder />
+                        </a>
+                       </div>  
                     </div>
                 </div> 
                 <div className="achievecard-imgcontainer">
