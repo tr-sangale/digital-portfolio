@@ -36,7 +36,7 @@ function AchievementCard({id, title, details, field, image}) {
                             rel='noreferrer'
                         >View Certificate
                         </a>
-                        <h5>
+                        </h5>
                     </div>
                 </div> 
                 <div className="achievecard-imgcontainer">
