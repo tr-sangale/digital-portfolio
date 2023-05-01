@@ -6,7 +6,7 @@ export const achievementData = {
             title : 'Google Data Analytics Professional Certificate',
             details : 'Coursera',
             date : '',
-            field : '',
+            field : 'https://drive.google.com/file/d/12mwIvOkYkgrH7valppOF2tMEpB9Nflfi/view?usp=sharing',
             image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
         },
         {
@@ -14,7 +14,7 @@ export const achievementData = {
             title : ' AWS Academy: Cloud Foundations, Cloud Architecting',
             details : 'AWS',
             date : '',
-            field : '',
+            field : 'https://drive.google.com/drive/folders/1eHoj05x_ar9HaE209ExHSC3_q7ChQmo0?usp=sharing',
             image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -22,7 +22,7 @@ export const achievementData = {
             title : 'Power BI Essential Training',
             details : 'LinkedIn',
             date : '',
-            field : '',
+            field : 'https://drive.google.com/file/d/1SyfqohuHhSe0pLDB2-mfH3mYjVBYZlSS/view?usp=sharing',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {
@@ -30,7 +30,7 @@ export const achievementData = {
             title : 'Microsoft Certified: Azure Data Fundamentals, Azure AI Fundamentals',
             details : 'Microsoft',
             date : '',
-            field : '',
+            field : 'https://drive.google.com/drive/folders/19M1pvaQKuitg7UN1xBjRR_4fYkMZo-Um?usp=sharing',
             image : 'https://media.istockphoto.com/id/1354846583/photo/microsoft-france-headquarters-entrance-in-issy-les-moulineaux-near-paris.jpg?s=612x612&w=0&k=20&c=qp3gYZx05398hv3BLzBIMRhm8MoxLzPxs6V7Xr2oIeE='
         }
     ]
