@@ -1,17 +1,17 @@
 export const socialsData = {
-    github: 'https://github.com/KaustubhShelar/',
-    facebook: 'https://m.facebook.com/kaustubh.shelar.568',
-    linkedIn: 'https://www.linkedin.com/in/kaustubh-shelar-950443213/',
-    instagram: 'https://instagram.com/_k_8_s_?igshid=ZDdkNTZiNTM=/',
+    github: 'https://github.com/tr-sangle/',
+    facebook: 'https://m.facebook.com/tejas.saganle.568',
+    linkedIn: 'https://www.linkedin.com/in/tejas-sangale-9b735b1a6/',
+    instagram: 'https://instagram.com/tejas_sangale_10?igshid=NTc4MTIwNjQ2YQ==',
     codepen: 'https://codepen.io/',
-    twitter: 'https://twitter.com/',
+    twitter: 'https://twitter.com/tejassangale2',
     reddit: 'https://www.reddit.com/user/',
     blogger: 'https://www.blogger.com/',
     medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
     youtube: 'https://youtube.com/',
-    hackerrank: 'https://www.hackerrank.com/krshelar/',
-    portfolio: 'https://master--kaustubhshelar.netlify.app/',
-    musicpage: 'https://instagram.com/_arrpeggio_?igshid=YmMyMTA2M2Y=/'
+    hackerrank: 'https://www.hackerrank.com/',
+    portfolio: 'https://tejas-sangale.netlify.app/',
+    musicpage: 'https://instagram.com/tejas_sangale_10?igshid=NTc4MTIwNjQ2YQ=='
 }
