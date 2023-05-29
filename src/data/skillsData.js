@@ -10,15 +10,13 @@
     'CSS',
     'React',
     'Bootstrap',
-    'Flutter',
+    'PostgreSQL',
     'Git',
-    'MaterialUI',
     'Numpy',
-    'Hadoop',
     'Excel',
     'Github',
-    'Tableau',
-    'PowerBI',
+    'AWS',
+    'Django',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
