@@ -12,7 +12,6 @@
     'Bootstrap',
     'PostgreSQL',
     'Git',
-    'Numpy',
     'Excel',
     'Github',
     'AWS',
