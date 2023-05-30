@@ -12,7 +12,7 @@
     'azure',
     'PostgreSQL',
     'Git',
-    'Excel',
+    'gcp',
     'Github',
     'AWS',
     'Django',
