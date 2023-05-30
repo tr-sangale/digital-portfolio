@@ -1,4 +1,5 @@
 import gcp from '../assets/svg/skills/gcp.svg'
+import jenkins from '../assets/svg/skills/jenkins.svg'
 import html from '../assets/svg/skills/html.svg'
 import photoshop from '../assets/svg/skills/photoshop.svg'
 import illustrator from '../assets/svg/skills/illustrator.svg'
@@ -84,6 +85,8 @@ import canva from '../assets/svg/skills/canva.svg'
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'jenkins':
+             return jenkins;
         case 'gcp':
             return gcp;
         case 'html':
