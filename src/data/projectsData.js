@@ -1,4 +1,4 @@
-//import three from '../assets/svg/projects/three.svg'
+import three from '../assets/svg/projects/three.svg'
 //import four from '../assets/svg/projects/four.svg'
 //import five from '../assets/svg/projects/five.svg'
 import eight from '../assets/svg/projects/eight.svg'
@@ -24,6 +24,15 @@ export const projectsData = [
         code: '',
         demo: '',
         image: eight
+    },
+    {
+        id: 3,
+        projectName: 'Unmanned Aerial Vehicle',
+        projectDesc: 'Created a UAV for forest fire detection and alarm alerting after forest fire detection.',
+        tags: ['UAV', 'CAD'],
+        code: '',
+        demo: '',
+        image: three
     },
 ]
 
