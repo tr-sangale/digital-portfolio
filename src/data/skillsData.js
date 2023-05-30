@@ -1,5 +1,6 @@
  export const skillsData = [
     'go',
+    'jenkins',
     'C++',
     'Java',
     'MySQL',
