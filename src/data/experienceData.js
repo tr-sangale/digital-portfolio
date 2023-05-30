@@ -9,14 +9,22 @@ export const experienceData = [
     },
     {
         id: 2,
-        company: 'GLogic India',
-        jobtitle: 'Cloud Engineer',
+        company: 'Legitquest',
+        jobtitle: 'DevOps Engineer',
         startYear: 'Jul\'2022',
         endYear: 'Sept\'2022',
-        description: '● Helped the fir m to migrate from Azure to GCP , so had gain the knowledge of both the CSP (cloud service provider) ● Managing and creating containers was a one of the basic roles which i played fr the organization. ● And one of my other roles in Legitquest was to maintain and create containarized nodejs and other frameworks application'
+        description: '● Helped the firm to migrate from Azure to GCP , so had gain the knowledge of both the CSP (cloud service provider) ● Managing and creating containers was a one of the basic roles which i played fr the organization. ● And one of my other roles in Legitquest was to maintain and create containarized nodejs and other frameworks application'
     },
     {
         id: 3,
+        company: 'TGH Tech',
+        jobtitle: 'DevOps Engineer',
+        startYear: 'Jun\'2022',
+        endYear: 'Jul\'2022',
+        description: '● Developed CI/CD pipelines for nodejs applications ● Used Nginx web server for deployment ● Deployed the bots created using nodejs and vuejs framework '
+    },
+    {
+        id: 4,
         company: 'GLogic India',
         jobtitle: 'Cloud Engineer',
         startYear: 'Aprl\'2022',
