@@ -9,12 +9,12 @@ import sample from '../assets/svg/projects/sample.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Image Cropper',
-        projectDesc: 'Web application that crops/edits an image before posting or setting up the profile picture',
-        tags: ['React', 'HTML', 'CSS', 'Flask'],
-        code: 'https://github.com/KaustubhShelar/Image-Cropper',
-        demo: 'https://github.com/KaustubhShelar/Image-Cropper',
-        image: three
+        projectName: 'Book Recommendation System',
+        projectDesc: 'Web application that recommends books based on you previously liked books',
+        tags: ['Django', 'HTML', 'CSS', 'ML','DL'],
+        code: '',
+        demo: '',
+        image: sample
     },
     {
         id: 2,
